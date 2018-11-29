@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.cross_validation import train_test_split
 import pandas as pd
 
-Iris = pd.read_csv('/opt/conda/bin/Iris/Iris.csv')
+Iris = pd.read_csv('/opt/conda/bin/Iris.csv')
 
 x = Iris.iloc[:,:4]
 y = Iris.iloc[:,-1]
