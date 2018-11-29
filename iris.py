@@ -1,4 +1,4 @@
-#!/opt/conda/bin
+#!/opt/conda/bin/python
 
 from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
